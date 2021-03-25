@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="잠금방식">
+
+    <SwitchPreference
+        android:key="pinCode"
+        android:title="PinCode"
+        />
+    <SwitchPreference
+        android:key="FingerPrint"
+        android:title="FingerPrint"/>
+
+    </PreferenceCategory>
+
+
+</androidx.preference.PreferenceScreen>
