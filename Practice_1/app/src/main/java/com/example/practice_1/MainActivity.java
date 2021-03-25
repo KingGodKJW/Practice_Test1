@@ -31,7 +31,11 @@ public class MainActivity extends AppCompatActivity {
         if(First == false){
             Log.d("First Launch?","true");
             Log.d("www","www");
+<<<<<<< HEAD
             Log.d("eee","eee");
+=======
+            Log.d("ttt","ttt");
+>>>>>>> test_branch3
           //  SharedPreferences.Editor editor = pref.edit();
            // editor.commit();
            // SharedPreferences firstPw = getSharedPreferences("firstPw", MODE_PRIVATE);
