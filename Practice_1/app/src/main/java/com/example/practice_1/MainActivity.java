@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
        int state = pref.getInt("First",-1);
         if(First == false){
             Log.d("First Launch?","true");
+            Log.d("www","www");
           //  SharedPreferences.Editor editor = pref.edit();
            // editor.commit();
            // SharedPreferences firstPw = getSharedPreferences("firstPw", MODE_PRIVATE);
